@@ -13,11 +13,8 @@ a{
     all: unset;
     cursor: pointer;
 }
-.main{
-    width: 100%;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
+body, html{
+    height: 100%;
 }
 /* header */
 .header{
@@ -62,6 +59,29 @@ a{
     font-size: .8rem;
     align-items: center;
 }
+/*main*/
+/*.main{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}*/
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 1rem;
+    gap: .5rem;
+}
+.main-nav span{
+    cursor: pointer;
+}
+.slide{
+    display: none;
+}
+/*slider*/
+
 @media screen and (min-width:764px) {
     .header{
         padding: 1.5rem;
@@ -87,5 +107,9 @@ a{
     }
     ::-webkit-scrollbar-thumb {
         background: rgb(0, 0, 0);
+    }
+    .main-nav{
+        right: 2rem;
+        bottom: 10%;
     }
 }
