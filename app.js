@@ -9,9 +9,9 @@ function closeNav() {
     document.getElementById("navMenu").style.opacity = "0";
 }
 /* slider */
+/*
 let slideIndex = 1;
 showSlides(slideIndex);
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -45,3 +45,4 @@ function showSlidesAuto() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlidesAuto, 6000); // Change image every 2 seconds
 }
+*/
