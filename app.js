@@ -54,3 +54,25 @@ function showSlidesAuto() {
   setTimeout(showSlidesAuto, 6000); // Change image every 2 seconds
 }
 */
+var dropdown = document.getElementsByClassName("filter-div-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "grid") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "grid";
+    }
+  });
+}
+/* price slider */
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}

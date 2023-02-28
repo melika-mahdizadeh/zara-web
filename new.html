@@ -174,30 +174,135 @@
     </div>
     <div class="filters" id="filtersMenu">
         <button class="f-close"><span class="material-symbols-outlined" onclick="closeFilters()">close</span></button>
+        <button class="filter-div-btn">
+            COLOR
+            <span class="material-symbols-outlined">
+add
+</span>
+        </button>
         <div class="filter-div">
-            <span>COLOR</span>
-            <span class="f-icon">+</span>
+            <div class="color-box-container">
+                <div class="color-box" style="background-color: rgb(208, 190, 149);"></div>
+                <span>BEIGE</span>
+            </div>
+            <div class="color-box-container">
+                <div class="color-box" style="background-color: black;"></div>
+                <span>BLACK</span>
+            </div>
+            <div class="color-box-container">
+                <span class="color-box" style="background-color: rgb(52, 114, 169);"></span>
+                <span>BLUE</span>
+            </div>
+            <div class="color-box-container">
+                <span class="color-box" style="background-color: rgb(104, 63, 32);"></span>
+                <span>BROWN</span>
+            </div>
+            <div class="color-box-container">
+                <span class="color-box" style="background-color: rgb(255, 246, 222);"></span>
+                <span>ECRU</span>
+            </div>
+            <div class="color-box-container">
+                <span class="color-box" style="background-color: rgb(97, 136, 45);"></span>
+                <span>GREEN</span>
+            </div>
+            <div class="color-box-container">
+                <span class="color-box" style="background-color: rgb(131, 131, 131);"></span>
+                <span>GREY</span>
+            </div>
+            <div class="color-box-container">
+                <span class="color-box" style="background-color: rgb(131, 131, 131);"></span>
+                <span>KHAKI</span>
+            </div>
+            <div class="color-box-container">
+                <span class="color-box" style="background-color: rgb(137, 79, 165);"></span>
+                <span>MAGENTA</span>
+            </div>
         </div>
+        <button class="filter-div-btn">
+            SIZE
+            <span class="material-symbols-outlined">
+add
+</span>
+        </button>
+        <div class="filter-div sizes-div">
+            <button class="size-btn">32 (US 14)</button>
+            <button class="size-btn">31 (US 12)</button>
+            <button class="size-btn">30 (US 10)</button>
+            <button class="size-btn">29 (US 8)</button>
+            <button class="size-btn">28 (US 6)</button>
+            <button class="size-btn">27 (US 4)</button>
+            <button class="size-btn">26 (US 2)</button>
+            <button class="size-btn">25 (US 0)</button>
+            <button class="size-btn">XXL</button>
+            <button class="size-btn">XL</button>
+            <button class="size-btn">L</button>
+            <button class="size-btn">M</button>
+            <button class="size-btn">S</button>
+            <button class="size-btn">XS</button>
+        </div>
+        <button class="filter-div-btn">
+            PRICE
+            <span class="material-symbols-outlined">
+add
+</span>
+        </button>
+        <div class="filter-div price-slider">
+            <p><span id="demo"></span> USD</p>
+            <input type="range" min="10" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <button class="filter-div-btn">
+            TYPE OF PRODUCT
+            <span class="material-symbols-outlined">
+add
+</span>
+        </button>
         <div class="filter-div">
-            <span>SIZE</span>
-            <spa class="f-icon"n>+</span>
+            <span>ANKLE BOOTS</span>
+            <span>BAGS</span>
+            <span>BLOUSE</span>
+            <span>BODYSUIT</span>
+            <span>DRESSSES</span>
+            <span>HEELS</span>
+            <span>JACKETS</span>
+            <span>JEANS</span>
+            <span>JUMPSUITS</span>
+            <span>KNITWEAR</span>
+            <span>PANTS</span>
+            <span>SANDALS</span>
+            <span>SHIRTS</span>
+            <span>SHOES</span>
+            <span>SKIRTS</span>
+            <span>SNEAKERS</span>
+            <span>T-SHIRTS</span>
         </div>
+        <button class="filter-div-btn">
+            CONTENTS
+            <span class="material-symbols-outlined">
+add
+</span>
+        </button>
         <div class="filter-div">
-            <span>PRICE</span>
-            <span class="f-icon">+</span>
+            <span>COTTON</span>
+            <span>DENIM</span>
+            <span>FAUX LEATHER</span>
+            <span>LEATHER</span>
+            <span>PATENT FINISH</span>
+            <span>POLYESTER</span>
+            <span>SATIN EFFECT</span>
+            <span>SOCKS</span>
         </div>
+        <button class="filter-div-btn">
+            COLLECTION
+            <span class="material-symbols-outlined">
+add
+</span>
+        </button>
         <div class="filter-div">
-            <span>TYPE OF PRODUCT</span>
-            <span class="f-icon">+</span>
+            <span>BASIC</span>
+            <span>KNITWEAR</span>
+            <span>TRF</span>
         </div>
-        <div class="filter-div">
-            <span>CCONTENTS</span>
-            <span class="f-icon">+</span>
-        </div>
-        <div class="filter-div">
-            <span>COLLECTION</span>
-            <span class="f-icon">+</span>
-        </div>
+        
     </div>
 
     <script src="app.js"></script>
