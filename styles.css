@@ -156,6 +156,37 @@ ul{
 .i-hidden{
     display: none;
 }
+.filters{
+    height: 100%; 
+    width: 100%; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden; 
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.2rem;
+    visibility: hidden;
+    opacity: 0;
+    font-size: .8rem;
+    align-items: center;
+    border-left: 1px black solid ;
+}
+.filter-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.f-icon{
+    font-size: 1rem;
+}
+.f-close{
+    margin-bottom: 2rem;
+}
 /* media quaries*/
 @media screen and (min-width:764px) {
     .header{
@@ -229,5 +260,10 @@ ul{
     }
     .i-hidden{
         display: inline;
+    }
+    .filters{
+        width: 400px;
+        align-items: baseline;
+        padding: 1.2rem 2rem;
     }
 }

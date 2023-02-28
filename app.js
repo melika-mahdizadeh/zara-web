@@ -8,6 +8,14 @@ function closeNav() {
     document.getElementById("navMenu").style.visibility = "hidden";
     document.getElementById("navMenu").style.opacity = "0";
 }
+function openFilters() {
+  document.getElementById("filtersMenu").style.visibility = "visible";
+  document.getElementById("filtersMenu").style.opacity = "1";
+}
+function closeFilters() {
+  document.getElementById("filtersMenu").style.visibility = "hidden";
+  document.getElementById("filtersMenu").style.opacity = "0";
+}
 /* slider */
 /*
 let slideIndex = 1;
