@@ -233,6 +233,9 @@ ul{
   background: black;
   cursor: pointer;
 }
+.hide-logo{
+    display: none;
+}
 /* media quaries*/
 @media screen and (min-width:764px) {
     .header{
@@ -311,5 +314,8 @@ ul{
         width: 400px;
         align-items: baseline;
         padding: 1.2rem 2rem;
+    }
+    .hide-logo{
+        display: inline;
     }
 }
