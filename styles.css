@@ -147,6 +147,9 @@ ul{
     flex-direction: column;
     padding: .2rem .4rem;
 }
+
+
+
 /* filter */
 .filter-btn{
     border: 1px solid black;
@@ -233,9 +236,12 @@ ul{
   background: black;
   cursor: pointer;
 }
-.hide-logo{
-    display: none;
+
+/* item page */
+.hide{
+    visibility: hidden;
 }
+
 /* media quaries*/
 @media screen and (min-width:764px) {
     .header{
@@ -317,5 +323,13 @@ ul{
     }
     .hide-logo{
         display: inline;
+    }
+    .hide{
+        visibility: visible;
+    }
+    .item-slider{
+        width: 400px;
+        position: absolute;
+        top: 6rem;
     }
 }
