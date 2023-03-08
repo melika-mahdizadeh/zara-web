@@ -128,7 +128,7 @@ ul{
     font-size: .5rem;
     gap: .5rem;
 }
-.footer span{
+.f-title{
     margin-top: 5rem;
 }
 /* item section */
@@ -294,6 +294,61 @@ ul{
     display: flex;
     flex-direction: column;
 }
+
+/*log-in page*/
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5rem;
+    gap: 4rem;
+    margin-top: 6rem;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form h1{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.login-form a{
+    font-size: .8rem;
+}
+.login-btn{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: .9rem;
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.register h1{
+    font-size: .8rem;
+    font-weight: 500;
+}
+input {
+    all: unset;
+    border-bottom: black solid .05rem;
+    font-size: .7rem;
+    padding: .5rem 0;
+    margin-bottom: 1.5rem;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.register-btn{
+    text-align: center;
+    padding: .9rem;
+    font-size: .8rem;
+    border: black solid .05rem;
+}
+
 /* media quaries*/
 @media screen and (min-width:764px) {
     .header{
@@ -399,5 +454,15 @@ ul{
     .more-items{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         gap: 1.2rem;
+    }
+    /* login page */
+    .login-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 770px;
+        margin: 12rem auto;
+    }
+    .login-form, .register{
+        width: 330px;
     }
 }
