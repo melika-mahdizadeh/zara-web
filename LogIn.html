@@ -53,7 +53,10 @@
       <form action="" class="login-form">
           <h1>LOG IN TO YOUR ACCOUNT</h1>
           <input type="email" placeholder="EMAIL" name="email" required>
-          <input type="password" placeholder="PASSWORD" name="password" required>
+          <input type="password" placeholder="PASSWORD" name="password" id="passInput" required>
+          <span class="material-symbols-outlined" id="togglePassword" onclick="togglePass()">
+            visibility
+            </span>
           <button type="submit" class="login-btn">LOG IN</button>
           <a href="">Forgot your password?</a>
       </form>

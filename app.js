@@ -76,3 +76,15 @@ output.innerHTML = slider.value;
 slider.oninput = function() {
   output.innerHTML = this.value;
 }
+/* password visibility switch */
+function togglePass() {
+  var x = document.getElementById("passInput");
+  var y = document.getElementById("togglePassword");
+  if (x.type === "password") {
+    x.type = "text";
+    y.innerText = "visibility_off";
+  } else {
+    x.type = "password";
+    y.innerText = "visibility";
+  }
+}

@@ -308,6 +308,7 @@ ul{
 .login-form{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .login-form h1{
     font-size: .9rem;
@@ -348,7 +349,13 @@ input {
     font-size: .8rem;
     border: black solid .05rem;
 }
+#togglePassword{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    cursor: pointer;
 
+}
 /* media quaries*/
 @media screen and (min-width:764px) {
     .header{
