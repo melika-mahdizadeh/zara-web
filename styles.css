@@ -219,6 +219,7 @@ ul{
     grid-template-columns: 1fr;
 }
 /* price slider*/
+
 .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -236,6 +237,7 @@ ul{
   background: black;
   cursor: pointer;
 }
+
 
 /* item page */
 .mobile-hidden{
@@ -331,7 +333,7 @@ ul{
     font-size: .8rem;
     font-weight: 500;
 }
-input {
+.login-input {
     all: unset;
     border-bottom: black solid .05rem;
     font-size: .7rem;
